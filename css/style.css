@@ -1,0 +1,107 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+  img {
+    max-width: 100%;
+  }
+  
+  /* contenitore generale */
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1100px;
+    border: 1px solid black;
+  }
+  
+  /* regole imposte dal contenitore generale */
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* suddivisione spazi tra sezioni del contenitore */
+  .spazi {
+    width: calc(100% / 3);
+    padding: 10px;
+  }
+  
+  /* regole che la sezione impone sugli elementi contenuti, per il posizionamento */
+  .sezione {
+    position: relative;
+  }
+  
+  /* sconto */
+  .sconto {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    font-size: 8px;
+    padding: 0 3px;
+    color: aliceblue;
+    background-color: red;
+  }
+  
+  /* sostenibilità */
+  .sostenibilità {
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    font-size: 8px;
+    padding: 0 3px;
+    color: aliceblue;
+    background-color: green;
+
+  }
+/* sostenibilità per l'ultima sezione */
+  .sostenibilità2 {
+
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        font-size: 8px;
+        padding: 0 3px;
+        color: aliceblue;
+        background-color: green;
+    
+      }
+  
+/* icona cuoricino */
+  .heart {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    padding: 2px;
+    background-color: white;
+  }
+
+  /* descrizione prodotti */
+
+  /* marca */
+  .marca {
+    color: grey;
+    font-size: 6px;
+  }
+
+  /* modello */
+  .modello {
+    font-size: 8px;
+  }
+
+  /* prezzi */
+  .scontato {
+    font-size: 6px;
+    color: red;
+  }
+
+  .originale {
+    color: grey;
+    font-size: 6px;
+    text-decoration: line-through;
+  }
