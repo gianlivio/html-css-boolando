@@ -39,28 +39,28 @@ img {
     width: 120px;
     height: 30px;
     display: flex;
-    align-items: center;  
-    
+    align-items: center;
+
 }
 
-.reparto > a {
-    font-size: 7px;
+.reparto>a {
+    font-size: 15px;
     padding: 1px;
     margin: 0 auto;
     color: white;
-    
+
 }
 
 .icons {
     width: 70px;
     height: 20px;
-    
+
     display: flex;
-    align-items: center;   
-   
+    align-items: center;
+
 }
 
-.icons > i {
+.icons>i {
     font-size: 15px;
     padding: 1px;
     margin: 0 auto;
@@ -70,7 +70,7 @@ img {
 .logo {
     width: 70px;
     height: 20px;
-    
+
 }
 
 
@@ -260,13 +260,14 @@ img {
 
 }
 
-.footercontainer > * {
+.footercontainer>* {
     color: white;
 }
 
 
 .boolando {
     margin-top: 10px;
+
 }
 
 .trovaci {
@@ -274,13 +275,11 @@ img {
 }
 
 
-.boolando > p {
+.boolando>p {
     font-size: 10px;
 }
 
-.trovaci > a {
+.trovaci>a {
     color: white;
     padding: 5px;
 }
-
-
