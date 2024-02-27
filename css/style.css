@@ -236,3 +236,51 @@ img {
 .img6:hover img {
     opacity: 0;
 }
+
+
+
+
+/* footer */
+
+.footerbanner {
+    width: 100%;
+    margin-top: 20px;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.footercontainer {
+    width: 70%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footercontainer > * {
+    color: white;
+}
+
+
+.boolando {
+    margin-top: 10px;
+}
+
+.trovaci {
+    margin-top: 10px;
+}
+
+
+.boolando > p {
+    font-size: 10px;
+}
+
+.trovaci > a {
+    color: white;
+    padding: 5px;
+}
+
+
