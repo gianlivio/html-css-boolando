@@ -1,11 +1,8 @@
-/* RESET */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 img {
     max-width: 100%;
@@ -31,54 +28,36 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
 }
 
 .reparto {
-    width: 120px;
-    height: 30px;
     display: flex;
     align-items: center;
-
 }
 
 .reparto>a {
     font-size: 15px;
-    padding: 1px;
-    margin: 0 auto;
+    margin: 0 10px;
     color: white;
-
+    text-decoration: none;
 }
 
 .icons {
-    width: 70px;
-    height: 20px;
-
     display: flex;
     align-items: center;
-
 }
 
 .icons>i {
     font-size: 15px;
-    padding: 1px;
-    margin: 0 auto;
+    margin: 0 10px;
     color: white;
 }
 
-.logo {
-    width: 70px;
-    height: 20px;
-
+.logo img {
+    height: 40px;
 }
 
-
-
-
-
-/* contenitore generale */
-
+/* CONTAINER */
 .container {
     width: 80%;
     margin: 0 auto;
@@ -86,83 +65,58 @@ img {
     border: 1px solid black;
 }
 
-/* regole imposte dal contenitore generale */
 .flex {
     display: flex;
     flex-wrap: wrap;
 }
 
-/* suddivisione spazi tra sezioni del contenitore */
+/* ITEM */
 .spazi {
     width: calc(100% / 3);
     padding: 10px;
 }
 
-/* regole che la sezione impone sugli elementi contenuti, per il posizionamento */
 .sezione {
     position: relative;
 }
 
-/* sconto */
-.sconto {
+.sconto, .sostenibilità, .sostenibilità2, .heart {
     position: absolute;
+    font-size: 10px;
+    padding: 2px 5px;
+    color: white;
+}
+
+.sconto {
     bottom: 10px;
     left: 0;
-    font-size: 8px;
-    padding: 0 3px;
-    color: aliceblue;
     background-color: red;
 }
 
-/* sostenibilità */
-.sostenibilità {
-    position: absolute;
+.sostenibilità, .sostenibilità2 {
     bottom: 10px;
     left: 25px;
-    font-size: 8px;
-    padding: 0 3px;
-    color: aliceblue;
     background-color: green;
-
 }
 
-/* sostenibilità per l'ultima sezione */
-.sostenibilità2 {
-
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    font-size: 8px;
-    padding: 0 3px;
-    color: aliceblue;
-    background-color: green;
-
-}
-
-/* icona cuoricino */
 .heart {
-    position: absolute;
     top: 5px;
-    right: 0;
-    padding: 2px;
+    right: 5px;
     background-color: white;
+    color: red;
 }
 
-/* descrizione prodotti */
-
-/* marca */
+/* TEXT */
 .marca {
     color: grey;
     font-size: 10px;
 }
 
-/* modello */
 .modello {
     font-size: 14px;
     font-weight: bold;
 }
 
-/* prezzi */
 .scontato {
     font-size: 10px;
     color: red;
@@ -174,112 +128,70 @@ img {
     text-decoration: line-through;
 }
 
-/* effetto hover */
-
-/* do una classe al contenitore dell'immagine */
-.img1 {
-    /* imposto l'immagine sostitutiva */
-    background-image: url(../img/img/1b.webp);
-    /* impongo la misura */
+/* HOVER EFFECT */
+.img1, .img2, .img3, .img4, .img5, .img6 {
     background-size: cover;
-
-
 }
 
-.img1:hover img {
-    opacity: 0;
+.img1 {
+    background-image: url(../img/1b.webp);
 }
 
 .img2 {
-    background-image: url(../img/img/2b.webp);
-    background-size: cover;
-
-
-}
-
-.img2:hover img {
-    opacity: 0;
+    background-image: url(../img/2b.webp);
 }
 
 .img3 {
-    background-image: url(../img/img/3b.webp);
-    background-size: cover;
-}
-
-.img3:hover img {
-    opacity: 0;
+    background-image: url(../img/3b.webp);
 }
 
 .img4 {
-    background-image: url(../img/img/4b.webp);
-    background-size: cover;
-}
-
-.img4:hover img {
-    opacity: 0;
+    background-image: url(../img/4b.webp);
 }
 
 .img5 {
-    background-image: url(../img/img/5b.webp);
-    background-size: cover;
-}
-
-.img5:hover img {
-    opacity: 0;
+    background-image: url(../img/5b.webp);
 }
 
 .img6 {
-    background-image: url(../img/img/6b.webp);
-    background-size: cover;
+    background-image: url(../img/6b.webp);
 }
 
+.img1:hover img,
+.img2:hover img,
+.img3:hover img,
+.img4:hover img,
+.img5:hover img,
 .img6:hover img {
     opacity: 0;
 }
 
-
-
-
-/* footer */
-
+/* FOOTER */
 .footerbanner {
     width: 100%;
     margin-top: 20px;
-    height: 80px;
     background-color: black;
     display: flex;
     justify-content: center;
+    padding: 20px 0;
 }
 
 .footercontainer {
     width: 70%;
-    height: 40px;
-    background-color: black;
     display: flex;
     justify-content: space-between;
-
 }
 
 .footercontainer>* {
     color: white;
 }
 
-
-.boolando {
-    margin-top: 10px;
-
-}
-
-.trovaci {
-    margin-top: 10px;
-}
-
-
-.boolando>p {
+.boolando p {
     font-size: 10px;
 }
 
 .trovaci>a {
     color: white;
     padding: 5px;
+    text-decoration: none;
 }
